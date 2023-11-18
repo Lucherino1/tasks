@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&family=Roboto:wght@100&family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&family=Roboto:wght@100&family=Sen&display=swap");
+
+body {
+  background-color: #faf8ed;
+}
+
+nav {
+  display: flex;
+  width: auto;
+  height: 102;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  color: #2d3134;
+  font-family: "Sen", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 135px;
+}
+
+.logo img {
+  width: 42px;
+}
+
+.navbar {
+  margin-right: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #2e476b;
+  margin-right: 36px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.16px;
+}
+
+.navbar a:first-of-type {
+  margin-left: 72px;
+}
+
+.booking__buttom {
+  margin-right: 191px;
+  width: 170px;
+  height: 54px;
+  border-radius: 27px;
+  border: 1.7px solid #f66f4d;
+  background: none;
+  color: #f66f4d;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
